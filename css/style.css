@@ -11150,6 +11150,8 @@ h5,
   -webkit-box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.15);
+  border: none;
+  transition: 0.3s all ease;
 }
 .services .media-body .btn-custom span {
   color: #fff;
@@ -11161,7 +11163,9 @@ h5,
 .services:hover .icon,
 .services.active .icon {
   background: #fff;
+  filter: none;
 }
+
 .services:hover .media-body,
 .services.active .media-body {
   color: rgba(255, 255, 255, 0.9);
@@ -12772,4 +12776,4 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
- }
+}
